@@ -1,0 +1,140 @@
+body {
+	background-color: #222;
+	overflow-x: hidden;
+}
+
+canvas {
+	position: absolute;
+}
+
+.left {
+	background-color: #2b3142;
+	position: fixed;
+	height: 100%;
+}
+
+nav {
+	margin-top: 200px;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	border: 1px dashed #2b3142;
+	width: 100%;
+}
+
+nav li:hover {
+	border: 1px dashed #fff;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+nav a {
+	color: #fff;
+	font-size: 28px;
+	font-family: 'Bungee Inline';
+	display: block;
+}
+
+nav a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.right {
+	float: right;
+	text-align: center;
+}
+
+.bottle {
+	height: 250px;
+	margin-top: 150px;
+}
+
+.date {
+	margin-top: 40px;
+}
+
+.apj {
+	margin-top: 80px;
+}
+
+.pres {
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Bungee Inline';
+}
+
+.colg {
+	color: #2b54c6;
+	font-size: 48px;
+	font-family: 'Bungee Inline';
+}
+
+.about {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.abel {
+	color: #fff;
+	font-size: 36px;
+	font-family: 'Bungee Inline';
+	margin-top: 80px;
+}
+
+.expl {
+	color: #fff;
+	font-family: 'Bree Serif';
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.about hr {
+	width: 30%;
+}
+
+.aboutapj hr {
+	width: 50%;
+}
+
+button {
+	padding: 10px;
+	width: 200px;
+	height: 60px;
+	background-color: rgba(0,0,0,0);
+	color: #fff;
+}
+
+.reg {
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;
+	background-color: #2b3142;
+	font-family: 'Bungee Inline';
+	font-size: 18px;
+}
+
+.acc {
+	float: right;
+	margin-top: 20px;
+	margin-right: 5px;
+	font-size: 18px;
+	font-family: 'Bungee Inline';
+	background-color: #2b3142;
+}
+
+button a {
+	color: #fff;
+}
+
+button a:hover {
+	color: #fff;
+	text-decoration: none;
+}
